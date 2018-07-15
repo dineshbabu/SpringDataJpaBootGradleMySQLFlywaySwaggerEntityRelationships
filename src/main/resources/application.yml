@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    name: tutorialDatabase
+    password: pa55w0rd
+    url: jdbc:mysql://localhost:3306/tutorialDatabase
+    username: sa
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+tomcat:
+  port: 8888
+  contextPath: /shopping
